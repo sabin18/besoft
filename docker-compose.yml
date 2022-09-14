@@ -1,0 +1,22 @@
+version: '4.4.4'
+
+services:
+  web:
+    restart: on-failure
+    build: ./
+    # env_file: ./.env
+
+    container_name: besoft-web
+    ports:
+      - '80:80'
+    # environment:
+    #   - ./.env
+    volumes:
+      - .:/usr/src/
+      # - /usr/src/node_modules/
+      # - ./../uploads:/usr/uploads/
+
+# networks:
+#   default:
+#       external:  
+#           name: nginx-proxy
