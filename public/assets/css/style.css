@@ -3005,7 +3005,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   }
   body header .navbar-expand .navbar-nav.action .btn {
     padding: 5px 10px;
-    font-size: 0;
+    font-size: 12px;
   }
   body header .navbar-expand .navbar-nav.action .btn i {
     font-size: initial;
