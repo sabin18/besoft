@@ -11,7 +11,7 @@ const HomePage = () =>{
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-7">
                             {/* <span>{this.state.data.pre_heading}</span> */}
-                            <h1 className="mt-4">Fintech solution to IT problems</h1>
+                            <h2 className="mt-4">Fintech solution to IT problems</h2>
                             {/* <p>{this.state.data.content}</p> */}
                             {/* Buttons */}
                            
@@ -21,7 +21,7 @@ const HomePage = () =>{
                 {/* Shape */}
                 <div className="shape">
                 <div className="row button-group float-right justify-content-center" >
-                                <div className="col-6 col-md-6 col-lg-6 text-center" style={{backgroundColor:"#000229",opacity: 0.5}}><h2>SOFTWARE ORIENTED COMPANY</h2></div>
+                                <div className="col-6 col-md-6 col-lg-6 text-center" style={{backgroundColor:"#000229",opacity: 0.8}}><h2>SOFTWARE ORIENTED COMPANY</h2></div>
                                 {/* <a className="btn btn-bordered-white" href="/create"><i className="icon-note mr-2" />LL</a> */}
                             </div>
                     {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 465" version="1.1">

@@ -18,11 +18,11 @@ const ContactUs =()=>{
                             {/* Item Form */}
                             <div className="row">
                                 <h6 className="text-dark mb-0 pb-0">OUR MISSION</h6>
-                                <p>Our mission is to gain the trust and confidence of our clients through clear
+                                <p style={{marginTop:"1rem"}}>Our mission is to gain the trust and confidence of our clients through clear
 communication , reasonable and objective guidance , together with a genuine and
 palpable concern for their long term and comprehensive financial growth.</p>
                                 <h6 className="text-dark mb-0 pb-0">OUR VISION</h6>
-                                <p>We believe advance technology and exceptional talent alone cannot guarantee
+                                <p style={{marginTop:"1rem"}}>We believe advance technology and exceptional talent alone cannot guarantee
 success . In a demanding business environment , it is essential to have a strong client
 centric approach involving understanding client's exact business needs and
 requirements . Our Vision is to become a leading provider of Fintech Solutions by

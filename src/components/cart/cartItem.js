@@ -8,7 +8,7 @@ const CartItem = () => {
         className="container border border-light rounded shadow"
         style={{ borderRadius: "30px" }}
       >
-        <div className="row">
+        <div >
           <div className="col-12">
             {/* Intro */}
             <div className="intro mb-4">
@@ -19,26 +19,21 @@ const CartItem = () => {
             </div>
           </div>
         </div>
-        <div className="row items ml-2">
-          {/* {this.state.workData.map((item, idx) => { */}
-          {/* return ( */}
-          <li
-            key={1}
-            className="single-tab-list d-flex align-items-center col-12 col-sm-6 col-lg-12"
-          >
-            <div className="border border-light rounded shadow bg-white"
-              style={{ borderRadius: "30px",top:"30px" }}>
-              <img className="avatar-lg" src={posImage} alt="" />
-            
-            </div>
-            {/* Activity Content */}
-            <div className="row activity-content ml-4 d-flex">
-              <div className="col-12 col-sm-6 col-lg-12 d-flex">
-              <div className="d-flex border-top border-bottom secondary-t-color">
-                <a href="/item-details" className="pr-4">
-                  <h5 className="text-dark">pos Machine</h5>
-                </a>
-                <h4 className="text-primary font-weight-bold font-size-13">
+        <div className="row items m-2">
+        <div className="border border-light rounded shadow bg-white"  style={{ top: "3.4rem",
+    height: "6.4rem",
+    width: "4.5rem"}}>
+<img className="avatar-lg" src={posImage} alt="" style={{ marginTop: "0.7rem",
+    height: "6.4rem",
+    width: "4.5rem"}} />
+</div>
+        <div className="row items d-flex p-4 pt-1">
+<div className="d-flex border-top border-bottom secondary-t-color">
+<div className="pr-4">
+<h5 className="text-dark">pos Machine</h5>
+</div>
+<div>
+<h4 className="text-primary font-weight-bold font-size-13">
                   500
                   <span
                     className="text-warning"
@@ -51,19 +46,16 @@ const CartItem = () => {
                     .00
                   </span>
                 </h4>
-                </div>
-                <div className="pl-4 pt-3 mb-0">
-                <button className="btn btn-sm btn-bordered-warning bg-warning">
+</div>
+</div>
+<div className="pl-4 pt-3 mb-0">
+<button className="btn btn-sm btn-bordered-warning bg-warning">
                   PAY NOW
                 </button>
-              </div>
-              </div>
-            </div>
-          </li>
+</div>
 
-          {/* ); */}
-          {/* })} */}
         </div>
+        </div>  
       </div>
     </section>
   );
