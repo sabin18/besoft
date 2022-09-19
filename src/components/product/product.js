@@ -1,7 +1,9 @@
 import React from "react";
+import { useHistory } from "react-router";
 
 const Product = (props) => {
   const { products } = props;
+  const history = useHistory()
   return (
     <>
       {products.map((product, index) => (
@@ -45,7 +47,7 @@ const Product = (props) => {
                   <button
                     className="btn btn-block btn-bordered-warning bg-warning"
                     style={{ top: "50px" }}
-                    // onClick={() => history.push("/cart")}
+                    onClick={() => history.push("/cart")}
                   >
                     ADD TO CART
                   </button>

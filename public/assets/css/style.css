@@ -66,7 +66,7 @@
   --h5-weight: 600;
   --h6-size: 1rem;
   --h6-weight: 600;
-  --p-size: 1rem;
+  --p-size: 14px;
   --p-weight: 400;
   --header-bg-color: #121117;
   --nav-brand-height: 55px;
@@ -916,6 +916,12 @@ aside {
   font-weight: 700;
 }
 
+.flex-gap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 .post-details .sidebar .title::before {
   position: absolute;
   content: '';
@@ -1095,7 +1101,7 @@ aside {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: 0;
+  /* bottom: 0; */
   line-height: 0;
   direction: ltr;
   overflow: hidden;
@@ -1232,6 +1238,35 @@ header .navbar-expand .navbar-brand i {
 header .navbar-expand .navbar-brand img {
   height: var(--nav-brand-height);
   transform: scale(1.5)
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  header .navbar-expand .navbar-brand img {
+    height: var(--nav-brand-height);
+    transform: scale(1.8)
+  }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  header .navbar-expand .navbar-brand img {
+    height: var(--nav-brand-height);
+    transform: scale(1.8)
+  }
+
+  
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  header .navbar-expand .navbar-brand img {
+    height: var(--nav-brand-height);
+    transform: scale(3.5)
+  }
+  
 }
 
 header .navbar-expand .navbar-nav {
@@ -2092,6 +2127,7 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
   z-index: 1;
 }
 
+
 .author-area .card .image-over .author {
   display: block;
   position: absolute;
@@ -2683,6 +2719,58 @@ header .navbar-expand .dropdown:hover > .dropdown-menu {
     text-indent: 0;
   }
 }
+
+
+    /* Medium devices (tablets, 768px and up) */
+   @media (min-width: 768px) {
+    .card-img-about{
+      height: 450px;
+      width:100%
+    }
+    /* .about-text{
+      overflow: visible;
+      height: 390px 
+    } */
+    .about-button{
+      top:-40px;
+      left: 120px
+    }
+
+  }
+
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .card-img-about{
+      height: 450px;
+    }
+    .about-text{
+      overflow: "visible";
+      height: 390px
+    }
+    .about-button{
+      top:-40px;
+      left: 120px
+          }
+  }
+  
+
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+   .card-img-about{
+      height: 450px;
+  }
+  .about-text{
+    overflow: "visible";
+    height: 390px 
+  }
+
+  .about-button{
+    top:-40px;
+    left: 120px
+    }
+    
+}
+
 
 .footer-area .footer-items .subscribe-form input::-webkit-input-placeholder {
   color: var(--primary-p-color);

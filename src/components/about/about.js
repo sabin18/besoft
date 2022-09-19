@@ -10,7 +10,7 @@ const About = () => {
           style={{ borderRadius: "35px" }}
         >
           <div className="col-12 col-md-6 col-lg-12 mb-4">
-            <div className="row" style={{ borderRadius: "35px" }}>
+            <div className="row about-text" style={{ borderRadius: "35px"}}>
               <div className="col-12 col-md-6 col-lg-6">
                 <h2 className="mt-4 mb-0 ml-2 font-weight-bold">
                   About <small>BeSoft</small>
@@ -35,7 +35,7 @@ const About = () => {
                   relationships with our clients and forge strong & resourceful
                   partnerships
                 </p>
-                <button className="btn btn-lg btn-bordered-warning text-dark bg-white float-right">
+                <button className="about-button btn btn-lg btn-bordered-warning text-dark bg-white float-right">
                   More About Us
                 </button>
               </div>
