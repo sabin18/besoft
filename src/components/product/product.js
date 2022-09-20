@@ -47,7 +47,7 @@ const Product = (props) => {
                   <button
                     className="btn btn-block btn-bordered-warning bg-warning"
                     style={{ top: "50px" }}
-                    onClick={() => history.push("/cart")}
+                    // onClick={() => history.push("/cart")}
                   >
                     ADD TO CART
                   </button>
